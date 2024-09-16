@@ -1,0 +1,197 @@
+html {
+	height: 100%;
+	width: 100%:
+}
+
+/* element selectors */
+
+h1 {
+	color: #39FF14;
+	font-size: 80px;
+	text-align: center;
+	padding: 50px;
+}
+
+h3 {
+	color: #FF6600;
+	font-size: 50px;
+	padding: 20px;
+}
+
+p {
+	color: lightsalmon;
+	text-align: center;
+	margin: 30px;
+	font-size: 25px;
+	padding-bottom: 50px;
+}
+
+table {
+	background-color: lightskyblue;
+	padding: 50px;
+	color: #035BFF;
+}
+
+ol {
+	color: #FFFF00;
+	margin: 10px;
+	padding: 20px;
+	padding-bottom: 65px;
+	font-size: 30px;
+}
+
+
+/* class selectors */
+
+.merienda {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abt_me {
+	background-color: #00035B;
+	background-image: url("glub.jpg");
+}
+.me_me_me {
+	text-align: center;
+	font-size: 60px;
+	color: #FF007F;
+	padding: 70px;
+}
+
+.my_proj {
+	background-color: #2A0D5D;
+}
+
+.actual_proj {
+	background-color: #6F00FF;
+	padding: 30px;
+	text-align: center;
+}
+
+.acts {
+	text-align: center;
+}
+
+.hotpink {
+	color: #F433FF;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
+/* ID selectors */
+
+#main_title {
+	text-align: center;
+	color: lightgoldenrodyellow;
+	font-size: 70px;
+	padding: 150px;
+	background-color: #00035B;
+	background-image:url("whee.jpg");
+}
+
+/* interests */
+
+#reading {
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+	background-image: url("book.jpg");
+	background-size: 150px;
+	color: darkorange;
+}
+
+#space {
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+	background-image: url("glub.jpg");
+	color: lightsteelblue;
+}
+
+#science {
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+	background-image: url("yo.png");
+	background-size: 380px;
+	color: deepskyblue;
+}
+
+#bed {
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+	background-image: url("re.jpg");
+	color: darkviolet;
+}
+
+/* activities */
+
+#SandD {
+	background-color: #00FFE1;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#Astro {
+	background-color: #B6FF00;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#Scouts {
+	background-color: #FF008C;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#MUN {
+	background-color: #FFFA00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#SciBowl {
+	background-color: #057DFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#KVH {
+	background-color: #D400FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* schedule */
+
+#BDF {
+	text-align: right;
+	margin-left: 900px;
+}
+
+#uwu {
+	height: 300px;
+	float: left;
+	object-position: left;
+}
+
+#ovo {
+	height: 300px;
+	float: right;
+	object-position: right;
+}
+

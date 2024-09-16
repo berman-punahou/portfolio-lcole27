@@ -1,0 +1,96 @@
+/* General Styles */
+
+body {
+    background-color: palevioletred;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector: Styling the main heading (h1) */
+
+h1 {
+    color: paleturquoise;
+    background-color: #D496A7;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+h2 {
+    color: lightpink;
+    background-color: #FFEED6;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+p {
+    background-color: #8A84E2;
+    text-align: center;
+    color: palegoldenrod;
+    padding: 5px;
+    font-size: 20px;
+}
+h3 {
+    background-color: #F5D0C5;
+    font-size: 40px;
+    text-align: center;
+    color: #FF82A9;
+}
+
+/* Class selectors */
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.highlight {
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    background-color: #AFAFDC;
+    background-size: 10px;
+    color: #EDFFAB;
+}
+.nothighlight {
+    text-align: center;
+    font-size: 30px;
+    background-color: #E9EBF8;
+    color: #EDB183;
+    background-size: 30px;
+}
+
+
+/* ID Selectors */
+
+#important {
+    background-color: #B2E6D4;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: royalblue;
+    color: #3B8EA5;
+}
+
+
+#shrug {
+    background-color: #8A84E2;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    padding: 5px;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+

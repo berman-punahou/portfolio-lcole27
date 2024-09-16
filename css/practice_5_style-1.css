@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: auto;
+}
+
+#picbox {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#box-a {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#box-b {
+    background-color: lightblue;
+    text-align: center;
+}
+
+#box-c {
+    background-color: lightcoral;
+    text-align: center;
+}
+
+#box-d {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+#box-e {
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+#box-f {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+#box-g {
+    background-color: lightpink;
+    font-size: 40px;
+    text-align: center;
+}

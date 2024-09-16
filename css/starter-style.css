@@ -1,0 +1,35 @@
+/* General Styles */
+
+body {
+    background-color: #FF9B85;
+    margin: 0;
+    padding: 2px;
+}
+
+/* Element Selector: Styling the main heading (h1) */
+
+h1 {
+    background-color: #FFD97D;
+    padding: 10px;
+    color: #E94F37;
+    border-color: #EC91D8;
+}
+p {
+    background-color: #AAF683;
+    color: #7E78D2;
+}
+
+/* Class selectors */
+
+.highlight {
+    background-color: lightyellow;
+}
+.otherone {
+    background-color: dodgerblue;
+    border-color: greenyellow;
+}
+
+
+
+
+/* ID Selectors */
