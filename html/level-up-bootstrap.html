@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Navbar demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: powderblue;">
+        <div class="container-flexible";>
+            <ul class="navbar nav">
+                <!-- All the links that I want in my navigation bar go below as "list items", or <li> elememts -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.punahou.edu/admissions/applying-to-punahou" style="color: mediumblue; font-weight: bold">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.punahou.edu/academics" style="color: yellow; font-weight: bold">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.punahou.edu/life-at-punahou" style="color: mediumblue; font-weight: bold">Life @ Punahou</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: yellow; font-weight: bold">Get Rickrolled</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- all the heading stuff -->
+    <div style="background-color: palegoldenrod;">
+        <h1 style="color: dodgerblue; font-size: 50px; text-align: center; padding: 15px;">
+            Punahou
+        </h1>
+        <div class="d-grid">
+            <a href="https://www.punahou.edu" class="btn btn-outline-primary btn-block" >The Not-Fake Punahou Webpage</a>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 d-flex border border-5 border-dark" style="background-color: lightsalmon;">
+                    Give this flexbox a black border of size 5!
+                </div>
+                <div class="col-sm-6 d-flex border border-warning rounded-2 border-2" style="background-color: lightseagreen;">
+                    Hi, I'm just an empty flexbox
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="background-color: lightblue;">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Puns.jpg" alt="Punahou seal" class="w-50 mx-auto d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="Pauahi.jpg" alt="Chicago" class="d-block w-90 mx-auto">
+    </div>
+    <div class="carousel-item">
+      <img src="Map.jpg" alt="New York" class="d-block w-90 mx-auto">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" class="btn btn-primary" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+ <!--the select menu-->
+    <div style="color: dodgerblue; font-size:30px; background-color:palegoldenrod;">
+        <h1 style="padding: 5px;">
+            Do you like our school?
+        </h1>
+        <select class="form-select form-select-lg" style="background-color:powderblue; color: yellow;">
+            <option>yes</option>
+            <option>no</option>
+            <option>maybe</option>
+            <option>get rickrolled</option>
+        </select>
+        <hr>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
