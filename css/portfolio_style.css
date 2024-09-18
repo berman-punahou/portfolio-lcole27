@@ -52,7 +52,7 @@ ol {
 
 .abt_me {
 	background-color: #00035B;
-	background-image: url("img/glub.jpg");
+	background-image: url("../img/glub.jpg");
 }
 .me_me_me {
 	text-align: center;
@@ -90,7 +90,7 @@ ol {
 	font-size: 70px;
 	padding: 150px;
 	background-color: #00035B;
-	background-image:url("img/whee.jpg");
+	background-image:url("../img/whee.jpg");
 }
 
 /* interests */
@@ -99,7 +99,7 @@ ol {
 	text-align: center;
 	font-size: 40px;
 	padding: 40px;
-	background-image: url("img/book.jpg");
+	background-image: url("../img/book.jpg");
 	background-size: 150px;
 	color: darkorange;
 }
@@ -108,7 +108,7 @@ ol {
 	text-align: center;
 	font-size: 40px;
 	padding: 40px;
-	background-image: url("img/glub.jpg");
+	background-image: url("../img/glub.jpg");
 	color: lightsteelblue;
 }
 
@@ -125,7 +125,7 @@ ol {
 	text-align: center;
 	font-size: 40px;
 	padding: 40px;
-	background-image: url("img/re.jpg");
+	background-image: url("../img/re.jpg");
 	color: darkviolet;
 }
 
