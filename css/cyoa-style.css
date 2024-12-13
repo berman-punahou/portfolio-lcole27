@@ -1,0 +1,90 @@
+/* The basic CSS for your CYOA project goes here. */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+p{
+  margin: auto;
+}
+
+
+img {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+
+.font {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+.darkred {
+	background-color: #640D14;
+	color: #C6AD94;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.lightred {
+	background-color: #800E13;
+	color: #F0CD93;
+	padding: 20px;
+  font-size: 60px;
+}
+
+
+.khaki {
+	background-color: #C6AD94;
+	color: #250902;
+	padding: 10px;
+  font-size: 40px;
+  border: 8px black;
+}
+
+
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  width: 150px;
+}
+
+
+.button{
+  background-color:  #C6AD94; 
+  border: 50px black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  display: flex;
+  width: 50%;
+}
+
+.btn a{
+  color: #250902;
+}
+
+.btn a:hover {
+  color: #640D14;
+}
+
+#title {
+  padding: 200px;
+  font-size: 70px;
+}
+
+#subtitle {
+  padding: 50px;
+  font-size: 30px;
+}
+
+
